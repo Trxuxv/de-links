@@ -5,6 +5,7 @@ interface Social {
   path: string;
   name: string;
   link: string;
+  fav: string;
 }
 @Component({
   selector: 'app-profile',

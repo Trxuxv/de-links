@@ -1,61 +1,85 @@
 [{
         "path": "./../assets/icons/github.png",
         "name": "Github",
-        "link": "https://www.linkedin.com/in/deboraferreiramaciel/"
+        "link": "https://www.linkedin.com/in/deboraferreiramaciel/",
+        "fav": "true"
     },
     {
         "path": "./../assets/icons/tellonym.png",
         "name": "Tellonym",
-        "link": "https://tellonym.me/trxuxv/"
+        "link": "https://tellonym.me/trxuxv/",
+        "fav": "true"
     },
     {
         "path": "./../assets/icons/spotify.png",
         "name": "Spotify",
-        "link": "https://open.spotify.com/user/imd%C3%A9"
-    },
-    {
-        "path": "./../assets/icons/xbox-logo.png",
-        "name": "XBOX",
-        "link": "https://twitter.com/sad1bunny"
-    },
-    {
-        "path": "./../assets/icons/reddit.png",
-        "name": "Reddit",
-        "link": "https://twitter.com/sad1bunny"
-    },
-    {
-        "path": "./../assets/icons/ps4.png",
-        "name": "PS4",
-        "link": "https://instagram.com/sad1bunny"
-    },
-    {
-        "path": "./../assets/icons/steam.png",
-        "name": "Steam",
-        "link": "https://twitter.com/sad1bunny"
-    },
-    {
-        "path": "./../assets/icons/pinterest.png",
-        "name": "Pinterest",
-        "link": "https://twitter.com/sad1bunny"
+        "link": "https://open.spotify.com/user/imd%C3%A9",
+        "fav": "true"
     },
     {
         "path": "./../assets/icons/twitter.png",
         "name": "Twitter",
-        "link": "https://twitter.com/sad1bunny"
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "true"
+    },
+    {
+        "path": "./../assets/icons/xbox-logo.png",
+        "name": "XBOX",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/reddit.png",
+        "name": "Reddit",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/skoob.png",
+        "name": "Skoob",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/ps4.png",
+        "name": "PS4",
+        "link": "https://instagram.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/steam.png",
+        "name": "Steam",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/letterbox.jpg",
+        "name": "Letterbox",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
+    },
+    {
+        "path": "./../assets/icons/pinterest.png",
+        "name": "Pinterest",
+        "link": "https://twitter.com/sad1bunny",
+        "fav": "false"
     },
     {
         "path": "./../assets/icons/instagram.png",
         "name": "Instagram",
-        "link": "https://instagram.com/sad1bunny"
+        "link": "https://instagram.com/sad1bunny",
+        "fav": "false"
     },
     {
         "path": "./../assets/icons/facebook.png",
         "name": "Facebook",
-        "link": "https://instagram.com/sad1bunny"
+        "link": "https://instagram.com/sad1bunny",
+        "fav": "false"
     },
     {
         "path": "./../assets/icons/linkedin.png",
         "name": "Linkedin",
-        "link": "https://www.linkedin.com/in/deboraferreiramaciel/"
+        "link": "https://www.linkedin.com/in/deboraferreiramaciel/",
+        "fav": "false"
     }
 ]

@@ -46,7 +46,8 @@
         </div>
     </header>
     <hr />
-    <div class="w-full h-2/6 flex overflow-x-scroll mt-8 pb-4">
+    <p class="my-5 ml-5">My apps</p>
+    <div class="w-full h-2/6 flex overflow-x-scroll pb-4">
         <div class="w-3/6 flex flex-col items-center justify-center h-5/6 mx-3" *ngFor="let item of social">
             <a href="{{ item.link }}" class="w-16 h-16 rounded-full">
                 <img class="shadow-md rounded-full" src="{{ item.path }}" alt="" />
@@ -57,12 +58,16 @@
         </div>
     </div>
     <hr />
-    <div class="py-8 px-6 text-justify text-sm font-light text-slate-600 leading-6">
-        <p class="mb-2 text-base font-black text-center text-slate-800">
-            A little bit about myself
-        </p>
-        A type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-        recent.
+    <p class="my-5 ml-5">My favorites</p>
+    <div class="w-full h-2/6 flex pb-8">
+        <div class="w-3/6 flex flex-col items-center justify-center h-5/6 mx-2" *ngFor="let item of social">
+            <a href="{{ item.link }}" class="w-20 h-20 rounded-full" *ngIf="item.fav == 'true'">
+                <img class="shadow-md rounded-full" src="{{ item.path }}" alt="{{item.name}}" />
+            </a>
+            <p class="text-xs pt-4 text-slate-700" *ngIf="item.fav == 'true'">
+                {{ item.name }}
+            </p>
+        </div>
     </div>
-    <hr />
+    <hr>
 </div>
